@@ -1,0 +1,244 @@
+
+body {
+  background-image: url("welcome.png");
+  font-family: 'Poppins', sans-serif;
+  
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+}
+
+.zerowaste {
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  padding-left: 200px;
+  padding-top: 120px;
+}
+
+
+h1 {
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  width:74px;
+  height:60px;
+  padding:200px 0;
+  margin-left:280px;
+  margin-bottom:10px;
+  }
+
+h5 {
+  font-family: 'Permanent Marker', cursive;
+  color:#2b2b29;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.wrapper {
+position: relative;
+}
+
+.content {
+  position:absolute;
+  top:0;
+  width:100%;
+}
+
+.jumbotron {
+  background-color:transparent;
+  text-align:center;
+  
+}
+
+.fa-linkedin {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: pink;
+  color: white;
+}
+
+.media {
+padding-left: 150px;
+}
+
+.blogpost {
+  color:white;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 280px;
+  padding-right: 150px;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index:1 ;
+}
+
+.col-sm-2 {
+  color: black
+}
+
+.aboutus {
+  color:black
+
+}
+
+.one {
+margin: auto;
+}
+
+.fa-linkedin {
+  background: #0e76a8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.fa-instagram {
+  background: #ffc0c0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  padding: 10px;
+}
+
+.intro {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  padding-top: 180px;
+  padding-right: 30px;
+}
+
+h3 {
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.carousel {
+padding-top: 100px;
+}
+
+
+.thumbsup {
+  border: white;
+  padding-left: 1000px;
+  color: grey;
+  padding-top: 40px;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+.video {
+  padding-top: 190px;
+  padding-left: 360px;
+}
+
+i {  
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.previousarrow {
+  padding-left: 100px;
+}
+
+.nextarrow{
+  padding-left: 320px;
+}
+
+.backgroundImage img {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+.row {
+  width: 100%;
+  align-content: center;
+}
